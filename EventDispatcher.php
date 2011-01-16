@@ -4,8 +4,8 @@
  * author: Denis Panaskin
  * version: Beta 1.0 29.04.2007
  */
-require_once "juds/events/IEventDispatcher.php";
-require_once "juds/events/Event.php";
+require_once dirname(__FILE__)."/IEventDispatcher.php";
+require_once dirname(__FILE__)."/Event.php";
 
  class EventDispatcher implements IEventDispatcher
  {
